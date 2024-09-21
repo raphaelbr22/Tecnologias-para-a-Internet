@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Fale Conosco</title>
+</head>
+
+<body>
+    <nav class="menu-navegacao">
+        <ul>
+            <div class="imagem">
+                <a href="https://uniube.br/" target="_blank"> <img src="imagens/logo_azul.svg" width="150px" alt=""></a>
+            </div>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="amazonia.html">Amazônia</a></li>
+            <li><a href="caatinga.html">Caatinga</a></li>
+            <li><a href="cerrado.html">Cerrado</a></li>
+            <li><a href="mataAtlantica.html">Mata Atlântica</a></li>
+            <li><a href="pampa.html">Pampas</a></li>
+            <li><a href="pantanal.html">Pantanal</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Fale Conosco</h1>
+        <form action="#" method="POST" class="form-contato">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+
+            <label for="genero">Gênero:</label>
+            <div class="opcoes-genero">
+                <label>
+                    <input type="radio" name="genero" value="masculino"> Masculino
+                </label>
+                <label>
+                    <input type="radio" name="genero" value="feminino"> Feminino
+                </label>
+                <label>
+                    <input type="radio" name="genero" value="outro"> Outro
+                </label>
+            </div>
+
+            <label for="Assunto">Assunto:</label>
+            <select id="Assunto" name="Assunto">
+                <option value="">Selecione uma opção</option>
+                <option value="Elogios">Elogios</option>
+                <option value="Críticas">Críticas</option>
+                <option value="Observações">Observações</option>
+                <option value="Outros">Outros</option>
+            </select>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <footer>
+        <nav class="menu-navegacao-inferior">
+            <ul>
+                <li><a href="imagens.html">Galeria de Imagens</a></li>
+                <li><a href="links.html">Links</a></li>
+                <li><a href="fale_conosco.html" class="active">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>

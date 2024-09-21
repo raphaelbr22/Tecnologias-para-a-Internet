@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eef2f3;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo para o menu de navegação */
+.menu-navegacao {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    background-color: #007bff; /* Cor de fundo do menu */
+    padding: 10px 0; /* Espaçamento em cima e embaixo */ 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #007bff;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #0056b3;
+}
+
+.active {
+    background-color: #0056b3;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.album {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    width: calc(33% - 40px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.album-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #0056b3;
+}
+
+.album img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    transition: transform 0.2s;
+}
+
+.menu-navegacao-inferior {
+    text-align: justify;
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    background-color: #007bff; /* Cor de fundo do menu */
+    border: 0 0 10px 0; /* Espaçamento em cima e embaixo */ 
+    padding: 30px 0;
+}
+
+.menu-navegacao-inferior ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-navegacao-inferior li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu-navegacao-inferior a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu-navegacao-inferior a:hover {
+    text-decoration: underline;
+}
